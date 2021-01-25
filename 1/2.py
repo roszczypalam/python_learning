@@ -33,10 +33,22 @@ teams = [
 lista_meczy = []
 
 for team in teams:
+
     for team2 in teams:
         if team != team2:
             para = [team , team2]
             lista_meczy.append(para)
+
+teams = [
+    'Real Madryt',
+    'Fc Barcelona',
+    'Legia Warszawa',
+    'Bayern Monachium',
+    'Widzew Łódź',
+    'Atletico Madrid',
+    'Ajax Amsterdam'
+]
+
 
 # print(lista_meczy)
 
